@@ -1,0 +1,12 @@
+None
+out
+.vscode
+.idea
+build
+cmake-*
+MapleStory
+
+
+data/client_dll
+data/extra_dll
+data/wz

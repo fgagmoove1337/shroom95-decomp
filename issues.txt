@@ -1,0 +1,13 @@
+CCOnfig::GetQuestAlarm fails, with nullable stuff
+
+CUserPool::CreateLocalUser zref issue
+
+CVecCtrlNpc::OnResolveMoveAction -> inheritance issue (-4/+4)
+
+
+_x_com_ptr<IWzVector2D>::_QueryVecCtrlNpc<CVecCtrlNpc> -> _QueryVecCtrlNpc
+
+
+ZArray::_Realloc leaks because it inits leaking cpa space
+
+void __thiscall CTemporaryStatView::Show(CTemporaryStatView *this) crash(iterator)

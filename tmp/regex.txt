@@ -1,0 +1,10 @@
+secure extract:
+
+clean:
+\s*public:\s*\n\s+
+uint32_t _ZtlSecureTear.*;\n
+
+
+replace:
+std::array<(\w*\s*\w+),\s*2>\s*_ZtlSecureTear_(.*);
+_ZTL_SEC_GETSETI($1, SecondaryStat, $2)
